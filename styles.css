@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('flight.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('fligh.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.hero-content h2 {
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: yellow;
+}
+
+label[for="cities"] {
+    color: blue; /* Change to the desired color code */
+}
+
+select {
+    margin-right: 50px;
+}
+
+#cities {
+    width: 150px; /* Adjust width as needed */
+    padding: 8px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-size: 16px;
+    color: maroon; /* Text color */
+    background-color: white; /* Background color */
+}
+
+#cities option {
+    font-size: 14px;
+    color: maroon; /* Text color */
+    background-color: #fff; /* Background color */
+}
+
+label[for="flight"] {
+    color: blue; /* Change to the desired color code */
+}
+
+#flight {
+    width: 150px; /* Adjust width as needed */
+    padding: 8px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-size: 16px;
+    color: maroon; /* Text color */
+    background-color: white; /* Background color */
+}
+
+#flight option {
+    font-size: 14px;
+    color: maroon; /* Text color */
+    background-color: #fff; /* Background color */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
